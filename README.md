@@ -3,8 +3,8 @@
 ## Goals
 Chimera is a new public blockchain that features:
 
-1. Support second-level finality.
-2. It is easy for other public blockchains to do two-way anchoring, using light client
+1. Fast finality within a few seconds
+2. Two-way light client bridges with other blockchains, especially EVM chains
 
 This can unlock many imaginative scenes. For example, stablecoin assets such as USDT on ETH can be trustedlessly moved to Chimera. So people can pay stablecoins through Chimera, and coins will arrive in a few seconds.
 
