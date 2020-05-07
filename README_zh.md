@@ -1,4 +1,4 @@
-# Chimera 项目白皮书
+# Chimera 项目白皮书 [English Version](README.md)
 
 ## 目标
 Chimera 是一条新的公链，它的特点是：
