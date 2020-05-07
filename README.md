@@ -43,7 +43,7 @@ A similar example in this regard is [Near's Rainbow Bridge](https://github.com/n
 
 ## Unresolved technical issues that require further thinking
 
-### Replay
+### Relay
 Who will pay for the long-term two-way relay operating costs and GAS fees?
 Should we allow verification of blocks with only dozens of consequent block headers but without every block headers back to the light client "start block"? If allowed, how to verify the difficulty of POW at this time?
 
@@ -60,5 +60,5 @@ It is expected that using these investments and about 6 months, a team of 3-4 pe
 
 
 
-### Risk
+### Risks
 It is not yet certain that the technical idea is completely feasible. Historically, there are also many precedents for blockchain projects that failed for technical reasons or did not meet expectations, such as Perlin and Plasma. It is expected that it will take 2-3 months to figure out the main technical risks of the project and determine whether it can be done. However, in the first two or three months, only a few developers are needed. Even if the project is not considered technically feasible finally, the salaries cost will be most likely less than 30,000 USD.
