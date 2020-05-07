@@ -1,6 +1,6 @@
 # Chimera 项目白皮书
 
-## 目标与定位
+## 目标
 Chimera 是一条新的公链，它的特点是：
 
 1. 支持秒级 finality。
@@ -8,9 +8,9 @@ Chimera 是一条新的公链，它的特点是：
 
 这可以解锁很多有想象力的场景。例如，ETH 上的 USDT 等稳定币资产，将可以被 trustless 地移动到 Chimera 上。因此人们可以通过 Chimera 支付稳定币，数秒后即可到账。
 
-## 技术路线
+## 技术
 
-### 共识与经济模型
+### 共识
 Chimera 会采取一种混合共识：POW + 类Avalanche。
 
 区块链的共识主要可以分为两大类：
@@ -34,7 +34,7 @@ Chimera 的节点可以选择动态地加入或者退出 Avalanche。
 
 和我们这里的想法类似，BCH 项目有一些对于 POW + Avalanche 的[非常前期的探索和思考](https://github.com/tyler-smith/snowglobe/blob/master/spec/snowglobe.md)。
 
-## 编程模型
+### 编程模型
 Chimera 会和大多数近期的链类似，采用 WASM 作为 VM。 
 
 Chimera 的 VM 中，可以使用 merkle proof / POW proof 来验证 EVM 链上交易中的 “Event” 的有效性。类似的，Chimera 链上的交易产生的 Event 也会体现在 block header hash 的计算中，因此 ETH 上的 Chimera light client 无需执行 WASM ，就可以验证 Chimera Event 的有效性。
